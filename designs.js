@@ -8,17 +8,17 @@ $(document).ready(function() {
         $("table tr").remove();
         var rows = $("#inputHeight").val();
         var cols = $("#inputWeight").val();
-            for (var i = 1; i <= rows; i++) {
+            for (var x = 1; x <= rows; x++) {
                 $("table").append("<tr></tr>");
-                for (var j = 1; j <= cols; j++) {
+                for (var y = 1; y <= cols; y++) {
                     $("tr:last").append("<td></td>");
-                    $("td").attr("class", "cells");
+                    $("td").attr("class", "grid");
                 }
             }
         displayGrid.preventDefault();
-        $(".cells").click(function() {
-            var paint = $("#colorPicker").val();
-            $(this).css("background", paint);
+        $(".grid").click(function() {
+            var gridColor = $("#colorPicker").val();
+            $(this).css("background", gridColor);
         });
     });
 });
