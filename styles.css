@@ -1,11 +1,14 @@
 body {
     text-align: center;
+    background-color: azure;
+    color: gray;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: 'Rubik', sans-serif;
     font-size: 70px;
     margin: 0.2em;
+    color: blue;
 }
 
 h2 {
@@ -19,7 +22,7 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid blue;
 }
 
 table {
@@ -38,3 +41,25 @@ td {
 input[type=number] {
     width: 6em;
 }
+
+#button {
+    background-color: skyblue;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.field {
+    background-color: white;
+    color:blue;
+    padding: 8px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
