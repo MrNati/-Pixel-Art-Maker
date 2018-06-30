@@ -20,4 +20,4 @@ This repository is the starter code for _all_ Udacity students. Therefore, we mo
 
 To see a live preview of this repository [Click Me!](https://mrnati.github.io/-Pixel-Art-Maker/)
 
-Thanks to Google, Udacity and Andela for this opprtunity.
+Thanks to Google, Udacity and Andela for this opportunity.
